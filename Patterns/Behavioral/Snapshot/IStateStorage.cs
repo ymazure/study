@@ -21,7 +21,7 @@ namespace Snapshot
     private readonly List<ISnapshot<T>> _backStates;
     private readonly List<ISnapshot<T>> _forwardStates;
 
-    private ISnapshot<T> _current;
+    //private ISnapshot<T> _current;
 
     public StateStorage(T t)
     {
