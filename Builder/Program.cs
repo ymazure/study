@@ -7,7 +7,8 @@ var builder = new House.HouseBuilder();
 builder
   .BuildWindows()
   .BuildLivingroom()
-  .BuildGarage();
+  .BuildGarage()
+  .BuildBathroom();
 
 var house1 = builder.GetResultHouse();
 
