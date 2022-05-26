@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Patterns\Creat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Patterns\Creational\Singleton\Singleton.csproj", "{18A810F2-B8CD-46E6-A22A-8F0D08693393}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{E8588FA9-4B92-436C-8A06-940555185346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Other\Console\Console.csproj", "{EFD95DA8-C3CD-4985-A750-7F6B5875F6B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,10 @@ Global
 		{18A810F2-B8CD-46E6-A22A-8F0D08693393}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18A810F2-B8CD-46E6-A22A-8F0D08693393}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18A810F2-B8CD-46E6-A22A-8F0D08693393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD95DA8-C3CD-4985-A750-7F6B5875F6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD95DA8-C3CD-4985-A750-7F6B5875F6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD95DA8-C3CD-4985-A750-7F6B5875F6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD95DA8-C3CD-4985-A750-7F6B5875F6B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,7 @@ Global
 		{D535CA6B-6956-4405-814B-66963CEBC5F9} = {B48C4121-2305-4E78-98E9-03E0167CDFBC}
 		{8748E7E6-457D-46E4-A5E4-F4B48EA2CA66} = {5610FB1A-978A-48DB-AF4A-4656CDB228C3}
 		{18A810F2-B8CD-46E6-A22A-8F0D08693393} = {5610FB1A-978A-48DB-AF4A-4656CDB228C3}
+		{EFD95DA8-C3CD-4985-A750-7F6B5875F6B2} = {E8588FA9-4B92-436C-8A06-940555185346}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81ACBFE2-DF0D-4F50-991B-AD42A47A4911}
