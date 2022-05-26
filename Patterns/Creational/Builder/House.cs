@@ -13,12 +13,6 @@
     public Bedroom Bedroom { get; private set; }
     public Livingroom Livingroom { get; private set; }
     public Roof Roof { get; private set; }
-
-
-    public House()
-    {
-      Garage = new Garage();
-    }
   }
 
   public class Garage  {  }
