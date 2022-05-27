@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-  internal class BubbleSortStrategy : ISortStrategy<int>
+  internal class BubbleSortStrategy<T> : ISortStrategy<T>
   {
-    public IEnumerable<int> Sort(IEnumerable<int> items)
+    public IEnumerable<T> Sort(IEnumerable<T> items)
     {
       // bubble sort algorithm here
       return items;
