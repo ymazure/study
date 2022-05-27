@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{E8588FA9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "..\..\..\..\..\..\Projects\Mine\Study\Other\Console\ConsoleApp.csproj", "{630FE4AF-0378-442C-8CED-A2FEFCB6D369}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Patterns\Behavioral\TemplateMethod\TemplateMethod.csproj", "{546F4483-15C1-407D-9362-22AD65837E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "Patterns\Behavioral\State\State.csproj", "{8FB4161A-C29F-45A0-AD65-A59A14390102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{630FE4AF-0378-442C-8CED-A2FEFCB6D369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{630FE4AF-0378-442C-8CED-A2FEFCB6D369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{630FE4AF-0378-442C-8CED-A2FEFCB6D369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{546F4483-15C1-407D-9362-22AD65837E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546F4483-15C1-407D-9362-22AD65837E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546F4483-15C1-407D-9362-22AD65837E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546F4483-15C1-407D-9362-22AD65837E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB4161A-C29F-45A0-AD65-A59A14390102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB4161A-C29F-45A0-AD65-A59A14390102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB4161A-C29F-45A0-AD65-A59A14390102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB4161A-C29F-45A0-AD65-A59A14390102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +111,8 @@ Global
 		{8748E7E6-457D-46E4-A5E4-F4B48EA2CA66} = {5610FB1A-978A-48DB-AF4A-4656CDB228C3}
 		{18A810F2-B8CD-46E6-A22A-8F0D08693393} = {5610FB1A-978A-48DB-AF4A-4656CDB228C3}
 		{630FE4AF-0378-442C-8CED-A2FEFCB6D369} = {E8588FA9-4B92-436C-8A06-940555185346}
+		{546F4483-15C1-407D-9362-22AD65837E4F} = {B48C4121-2305-4E78-98E9-03E0167CDFBC}
+		{8FB4161A-C29F-45A0-AD65-A59A14390102} = {B48C4121-2305-4E78-98E9-03E0167CDFBC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81ACBFE2-DF0D-4F50-991B-AD42A47A4911}
