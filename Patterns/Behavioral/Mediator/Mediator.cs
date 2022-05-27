@@ -25,7 +25,7 @@ namespace Mediator
       WebPageTitleChanged = s => _desktopData.Title = s;
       WebPageTextBOxChanged = s => _desktopData.TextBox = s;
       DesktopTitleChanged = s => _webPageData.Title = s;
-      DesktopTitleChanged = s => _webPageData.TextBox = s;
+      DesktopTextBOxChanged = s => _webPageData.TextBox = s;
     }
 
   }

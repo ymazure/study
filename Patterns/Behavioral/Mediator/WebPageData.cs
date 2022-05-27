@@ -26,7 +26,7 @@ namespace Mediator
       get => _textBox;
       set
       {
-        _title = value;
+        _textBox = value;
         _mediator.WebPageTitleChanged(value);
       }
     }
