@@ -13,6 +13,7 @@ namespace Iterator
       {
         Console.WriteLine(bodyPart.GetType());
       }
+
       Console.ReadLine();
     }
   }
