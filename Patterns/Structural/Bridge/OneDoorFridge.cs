@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bridge
 {
-  internal class OneDoreFridge : IFridge
+  internal class OneDoorFridge : IFridge
   {
     public IFreezer Freezer { get; set; }
   }
