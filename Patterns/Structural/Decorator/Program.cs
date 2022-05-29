@@ -6,15 +6,15 @@ namespace Decorator
   {
     static void Main(string[] args)
     {
-      IMoneyService service;
+      InfoLogger infoLogger = new InfoLogger();
 
-      service = new MoneyService();
+      ErrorLogger errorLogger = new ErrorLogger(infoLogger);
 
-      service = new LoggingMoneyServiceDecorator(service);
+      errorLogger.LogInfo();
 
-      service = new PerformanceMoneyServiceDecorator(service);
+      // using added method
 
-      service.PayTax();
+      errorLogger.LogError();
 
       Console.ReadLine();
     }
