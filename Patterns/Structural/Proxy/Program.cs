@@ -10,9 +10,11 @@ namespace Proxy
 
       userService = new UserService();
 
+      // Added dynamically new functionality
       userService = new LazyUserServiceProxy(() => new UserService());
 
-      userService = new CachingUserServiceProxy(new UserService());
+      // Added dynamically new functionality
+      userService = new CachingUserServiceProxy(userService);
     }
   }
 }
