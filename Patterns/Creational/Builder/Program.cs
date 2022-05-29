@@ -10,10 +10,10 @@ builder
   .BuildGarage()
   .BuildBathroom();
 
-var house1 = builder.GetResultHouse();
+var house1 = builder.GetHouse();
 
 builder
   .BuildKitchen()
   .BuildDors();
 
-var house2 = builder.GetResultHouse();
+var house2 = builder.GetHouse();

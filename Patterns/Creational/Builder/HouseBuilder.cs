@@ -37,7 +37,7 @@ namespace Builder
       public HouseBuilder BuildGarage() { return this; }
       public HouseBuilder BuildLivingroom() { return this; }
 
-      public House GetResultHouse()
+      public House GetHouse()
       {
         var result = _h;
         this.Reset();
